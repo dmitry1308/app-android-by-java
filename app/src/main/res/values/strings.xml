@@ -3,5 +3,11 @@
 
     <string name="find_beer">Find beer!</string>
     <string name="brands"></string>
-    <string name="hello">hello</string>
+
+    <string-array name="beer_color">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
 </resources>
