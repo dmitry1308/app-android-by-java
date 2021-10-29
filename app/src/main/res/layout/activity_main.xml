@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
 
-    tools:context=".CreateMessageActivity">
+    tools:context=".StopWatchActivity">
 
 
-    <Button
-        android:id="@+id/send"
+    <TextView
+        android:id="@+id/time_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="21dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="92sp" />
 
-        android:onClick="onSendMessage"
-        android:text="@string/send" />
-
-    <EditText
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/send"
-        android:layout_alignLeft="@id/send"
-        android:layout_marginTop="18dp"
-        android:ems="10" />
+  <Button
+      android:id="@+id/start_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/time_view"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:onClick="onClickStart"
+      android:text="@string/start_button"
+      />
 
 
 

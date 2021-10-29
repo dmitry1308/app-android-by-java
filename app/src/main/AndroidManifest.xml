@@ -10,11 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appandroidbyjava">
         <activity
-            android:name=".ReceiveMessageActivity"
-            android:label="@string/title_activity_receive_message"
-            android:exported="false" />
-        <activity
-            android:name=".CreateMessageActivity"
+            android:name=".StopWatchActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
