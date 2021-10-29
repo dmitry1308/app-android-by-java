@@ -17,5 +17,14 @@ public class StopWatchActivity extends AppCompatActivity {
 
 
     public void onClickStart(View view) {
+
+    }
+
+    public void onClickReset(View view) {
+
+    }
+
+    public void onClickStop(View view) {
+
     }
 }
