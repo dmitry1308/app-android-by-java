@@ -9,6 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class StopWatchActivity extends AppCompatActivity {
 
+    private int seconds = 0;
+    private boolean running;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,14 +20,15 @@ public class StopWatchActivity extends AppCompatActivity {
 
 
     public void onClickStart(View view) {
-
+        running = true;
     }
 
     public void onClickReset(View view) {
-
+        running = false;
     }
 
     public void onClickStop(View view) {
-
+        running = false;
+        seconds = 0;
     }
 }
