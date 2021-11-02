@@ -1,12 +1,14 @@
 package ru.shepin.app_android_by_java;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class StopWatchActivity extends AppCompatActivity {
@@ -15,9 +17,14 @@ public class StopWatchActivity extends AppCompatActivity {
     private boolean running;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
         setContentView(R.layout.activity_main);
+
+        if (bundle != null) {
+            seconds = bundle.getInt("seconds");
+            running = bundle.getBoolean("running");
+        }
 
         runTimer();
     }
@@ -46,6 +53,20 @@ public class StopWatchActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+        System.out.println("CALL METHOD onConfigurationChanged");
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        outState.putInt("seconds", seconds);
+        outState.putBoolean("running",running);
+    }
 
     public void onClickStart(View view) {
         running = true;
