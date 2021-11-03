@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Example</string>
+    <string name="enter">Enter email address</string>
     <string name="to">To</string>
     <string name="message">Message</string>
     <string name="send">SEND</string>
