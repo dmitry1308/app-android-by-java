@@ -6,29 +6,35 @@
     android:layout_height="match_parent"
 
 
-    tools:context=".CreateMessageActivity">
+    tools:context=".MainActivity">
 
+
+    <Spinner
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:entries="@array/beer_color" />
 
     <Button
-        android:id="@+id/send"
+        android:id="@+id/find_beer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="21dp"
+        android:layout_below="@+id/color"
+        android:layout_alignLeft="@+id/color"
 
-        android:onClick="onSendMessage"
-        android:text="@string/send" />
+        android:text="@string/find_beer"
+        android:onClick="onClickFindBeer"/>
 
-    <EditText
-        android:id="@+id/message"
+    <TextView
+        android:id="@+id/brands"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/send"
-        android:layout_alignLeft="@id/send"
-        android:layout_marginTop="18dp"
-        android:ems="10" />
+        android:layout_alignLeft="@id/color"
+        android:layout_below="@id/find_beer"
+        android:text="@string/brands" />
 
 
 
