@@ -4,14 +4,13 @@
 
     <application
         android:allowBackup="true"
+        android:configChanges="orientation|screenSize"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Appandroidbyjava"
 
-        android:configChanges="orientation|screenSize"
-        >
+        android:theme="@style/Theme.Appandroidbyjava">
 
         <activity
             android:name=".TopLevelActivity"
@@ -22,6 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".DrinkCategoryActivity"
+            android:label="@string/title_activity_drink_category">
+
+        </activity>
+
+        <activity
+            android:name=".DrinkActivity"
+            android:label="@string/title_activity_drink">
+        </activity>
+
+
     </application>
 
 </manifest>

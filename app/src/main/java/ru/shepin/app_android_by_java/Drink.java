@@ -1,5 +1,7 @@
 package ru.shepin.app_android_by_java;
 
+import androidx.annotation.NonNull;
+
 public class Drink {
     private String name;
     private String description;
@@ -39,5 +41,11 @@ public class Drink {
 
     public void setImageResourceId(int imageResourceId) {
         this.imageResourceId = imageResourceId;
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return name;
     }
 }
