@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/brigh/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_1.xml" value="0.12962962962962962" />
         <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38958333333333334" />
         <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/layout/activity_drink.xml" value="0.1" />
         <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/layout/activity_drink_category.xml" value="0.446875" />
         <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/layout/activity_main.xml" value="0.36354166666666665" />
         <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/layout/activity_top_level.xml" value="0.1" />
+        <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/layout/fragment_workout_detail.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/layout/fragment_workout_list.xml" value="0.328125" />
       </map>
     </option>
   </component>
