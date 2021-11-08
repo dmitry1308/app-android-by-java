@@ -7,9 +7,18 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+
     <fragment
-        android:layout_width="match_parent"
+        android:id="@+id/list_frag"
+        android:name="ru.shepin.app_android_by_java.WorkoutListFragment"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
         android:id="@+id/detail_frag"
         class="ru.shepin.app_android_by_java.WorkoutDetailFragment"/>
 
