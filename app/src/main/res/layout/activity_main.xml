@@ -15,11 +15,10 @@
         android:layout_height="match_parent"
         android:layout_weight="2" />
 
-    <fragment
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="3"
-        android:id="@+id/detail_frag"
-        class="ru.shepin.app_android_by_java.WorkoutDetailFragment"/>
+        android:layout_weight="3" />
 
 </LinearLayout>
