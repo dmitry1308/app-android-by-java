@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/app-android-by-java/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5435185185185185" />
+        <entry key="..\:/Projects/app-android-by-java/app/src/main/res/layout-large/activity_main.xml" value="0.25239071038251365" />
+        <entry key="..\:/Projects/app-android-by-java/app/src/main/res/layout/activity_detail.xml" value="0.33125" />
+        <entry key="..\:/Projects/app-android-by-java/app/src/main/res/layout/activity_main.xml" value="0.33469202898550726" />
+        <entry key="..\:/Projects/app-android-by-java/app/src/main/res/layout/fragment_workout_detail.xml" value="0.33125" />
         <entry key="..\:/Users/brigh/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_1.xml" value="0.12962962962962962" />
         <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38958333333333334" />
         <entry key="..\:/Users/brigh/IdeaProjects/2021/android/app-android-by-java/app/src/main/res/layout-large/activity_main.xml" value="0.2546875" />
