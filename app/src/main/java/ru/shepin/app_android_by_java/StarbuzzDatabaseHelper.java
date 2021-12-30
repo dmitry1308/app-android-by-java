@@ -7,8 +7,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import ru.shepin.app_android_by_java.R;
-
 /**
  * {Comments}
  *
